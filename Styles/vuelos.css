@@ -1,5 +1,5 @@
 *{
-    color: black;
+    color: white;
 }
 
 body{
@@ -17,9 +17,7 @@ p{
 
 .resultados{
     display: flex;
-    padding: 10rem;
-    padding-top: 0;
-    padding-bottom: 0rem;
+    justify-content: center;
 }
 
 .filtro{
@@ -27,8 +25,6 @@ p{
     flex-direction: column;
     align-items: start;
     height: 100%;
-    width: 13rem;
-    padding-left: 9rem;
     margin-right: 1rem;
 }
 
@@ -123,6 +119,7 @@ p{
     margin-right: 1.5rem;
     height: 4rem;
     width: 7rem;
+    background-color: gray;
 }
 
 .filtro_equipaje{
