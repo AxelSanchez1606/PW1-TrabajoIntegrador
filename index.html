@@ -20,23 +20,68 @@
         </nav>
     </header>
     <main>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente molestiae neque voluptates, obcaecati quibusdam inventore ea beatae quasi aut, eligendi accusantium accusamus dolorum ipsa, quas id quidem ipsum. Est, aut.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente molestiae neque voluptates, obcaecati quibusdam inventore ea beatae quasi aut, eligendi accusantium accusamus dolorum ipsa, quas id quidem ipsum. Est, aut.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente molestiae neque voluptates, obcaecati quibusdam inventore ea beatae quasi aut, eligendi accusantium accusamus dolorum ipsa, quas id quidem ipsum. Est, aut.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente molestiae neque voluptates, obcaecati quibusdam inventore ea beatae quasi aut, eligendi accusantium accusamus dolorum ipsa, quas id quidem ipsum. Est, aut.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente molestiae neque voluptates, obcaecati quibusdam inventore ea beatae quasi aut, eligendi accusantium accusamus dolorum ipsa, quas id quidem ipsum. Est, aut.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente molestiae neque voluptates, obcaecati quibusdam inventore ea beatae quasi aut, eligendi accusantium accusamus dolorum ipsa, quas id quidem ipsum. Est, aut.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente molestiae neque voluptates, obcaecati quibusdam inventore ea beatae quasi aut, eligendi accusantium accusamus dolorum ipsa, quas id quidem ipsum. Est, aut.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente molestiae neque voluptates, obcaecati quibusdam inventore ea beatae quasi aut, eligendi accusantium accusamus dolorum ipsa, quas id quidem ipsum. Est, aut.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente molestiae neque voluptates, obcaecati quibusdam inventore ea beatae quasi aut, eligendi accusantium accusamus dolorum ipsa, quas id quidem ipsum. Est, aut.</p>
+        <section>
+            <h2>Vola ahora, vola ya!</h2>
+            <form>
+                <div class="tipo-de-viaje">
+                    <label><input type="radio" name="tipo" value="ida-vuelta"> Ida y vuelta</label>
+                    <label><input type="radio" name="tipo" value="solo-ida"> Solo ida</label>
+                </div>
+                <div class="fila-formulario">
+                    <div class="items-formulario">
+                        <label for="origen">Origen</label>
+                        <input type="text" id="origen" name="origen" placeholder="Ciudad de origen" required>
+                    </div>
+                    <div class="items-formulario">
+                        <label for="destino">Destino</label>
+                        <input type="text" id="destino" name="destino" placeholder="Ciudad de destino" required>
+                    </div>
+                </div>
+
+                <div class="fila-formulario">
+                        <div class="items-formulario">
+                            <label for="fecha-ida">Ida</label>
+                            <input type="date" id="fecha-ida" name="fecha-ida" required>
+                        </div>
+                        <div class="items-formulario">
+                            <label for="fecha-vuelta">Vuelta</label>
+                            <input type="date" id="fecha-vuelta" name="fecha-vuelta">
+                        </div>
+                </div>
+
+                <div class="fila-formulario">
+                    <div class="items-formulario">
+                        <label for="pasajeros">Pasajeros</label>
+                        <select id="pasajeros" name="pasajeros">
+                            <option value="1">1 Pasajero</option>
+                            <option value="2">2 Pasajeros</option>
+                            <option value="3">3 Pasajeros</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="fila-formulario"></div>
+                    <div class="items-formulario">
+                        <label for="clase">Clase</label>
+                        <select id="clase" name="clase">
+                            <option value="economica">Económica</option>
+                            <option value="ejecutiva">Ejecutiva</option>
+                            <option value="primera">Primera Clase</option>
+                        </select>
+                    </div>
+                </div>
+
+                <button type="submit" class="btn-search">Buscar Vuelos</button>
+            </form>
+        </section>
     </main>
     <footer>
         <ul class="ul_footer">
             <h3>Integrantes</h3>
-            <li>Persona 1</li>
-            <li>Persona 2</li>
-            <li>Persona 3</li>
-            <li>Persona 4</li>
+            <li>Axel</li>
+            <li>Ariel</li>
+            <li>Bautista</li>
+            <li>Leandro</li>
+            <li>Rocio</li>
         </ul>
     </footer>
 </body>
