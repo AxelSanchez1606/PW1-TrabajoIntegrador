@@ -13,65 +13,69 @@
             <img class="img_header" src="Imagenes/fondo-transparente.png" alt="PasajesAereos Logo" width="100">
             <ul class="ul_header">
                 <li class="li_header"><a href="index.html">Inicio</a></li>
-                <li class="li_header"><a href="../Vuelos/vuelos.html">Vuelos</a></li>
+                <li class="li_header"><a href="../PW1-TrabajoIntegrador/Vuelos/vuelos.html">Vuelos</a></li>
                 <li class="li_header"><a href="ofertas.html">Ofertas</a></li>
-                <li class="li_header"><a href="contacto.html">Contacto</a></li>
+                <li class="li_header"><a href="../PW1-TrabajoIntegrador/Contacto/contacto.html">Contacto</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <section>
-            <h2>Vola ahora, vola ya!</h2>
-            <form>
-                <div class="tipo-de-viaje">
-                    <label><input type="radio" name="tipo" value="ida-vuelta"> Ida y vuelta</label>
-                    <label><input type="radio" name="tipo" value="solo-ida"> Solo ida</label>
-                </div>
-                <div class="fila-formulario">
+            <div class="titulo-principal">
+                <h2>Vola ahora, vola ya!</h2>
+                <h3>Busca tu vuelo</h3>
+            </div>
+            <div class="busqueda-vuelos">
+                <form class="main-form">
                     <div class="items-formulario">
-                        <label for="origen">Origen</label>
-                        <input type="text" id="origen" name="origen" placeholder="Ciudad de origen" required>
+                        <label><input type="radio" name="tipo" value="ida-vuelta"> Ida y vuelta</label>
+                        <label><input type="radio" name="tipo" value="solo-ida"> Solo ida</label>
                     </div>
-                    <div class="items-formulario">
-                        <label for="destino">Destino</label>
-                        <input type="text" id="destino" name="destino" placeholder="Ciudad de destino" required>
-                    </div>
-                </div>
-
-                <div class="fila-formulario">
+                    <div class="fila-formulario">
                         <div class="items-formulario">
-                            <label for="fecha-ida">Ida</label>
-                            <input type="date" id="fecha-ida" name="fecha-ida" required>
+                            <label for="origen">Origen:  </label>
+                            <input type="text" id="origen" name="origen" placeholder="Ciudad de origen" required>
                         </div>
                         <div class="items-formulario">
-                            <label for="fecha-vuelta">Vuelta</label>
-                            <input type="date" id="fecha-vuelta" name="fecha-vuelta">
+                            <label for="destino">Destino:  </label>
+                            <input type="text" id="destino" name="destino" placeholder="Ciudad de destino" required>
                         </div>
-                </div>
-
-                <div class="fila-formulario">
-                    <div class="items-formulario">
-                        <label for="pasajeros">Pasajeros</label>
-                        <select id="pasajeros" name="pasajeros">
-                            <option value="1">1 Pasajero</option>
-                            <option value="2">2 Pasajeros</option>
-                            <option value="3">3 Pasajeros</option>
-                        </select>
                     </div>
-                </div>
-                <div class="fila-formulario"></div>
-                    <div class="items-formulario">
-                        <label for="clase">Clase</label>
-                        <select id="clase" name="clase">
-                            <option value="economica">Económica</option>
-                            <option value="ejecutiva">Ejecutiva</option>
-                            <option value="primera">Primera Clase</option>
-                        </select>
-                    </div>
-                </div>
 
-                <button type="submit" class="btn-search">Buscar Vuelos</button>
-            </form>
+                    <div class="fila-formulario">
+                            <div class="items-formulario">
+                                <label for="fecha-ida">Ida:  </label>
+                                <input type="date" id="fecha-ida" name="fecha-ida" required>
+                            </div>
+                            <div class="items-formulario">
+                                <label for="fecha-vuelta">Vuelta:  </label>
+                                <input type="date" id="fecha-vuelta" name="fecha-vuelta">
+                            </div>
+                    </div>
+
+                    <div class="fila-formulario">
+                        <div class="items-formulario">
+                            <label for="pasajeros">Pasajeros:  </label>
+                            <select id="pasajeros" name="pasajeros">
+                                <option value="1">1 Pasajero</option>
+                                <option value="2">2 Pasajeros</option>
+                                <option value="3">3 Pasajeros</option>
+                            </select>
+                        </div>
+                        <div class="items-formulario">
+                            <label for="clase">Clase:  </label>
+                            <select id="clase" name="clase">
+                                <option value="economica">Económica</option>
+                                <option value="ejecutiva">Ejecutiva</option>
+                                <option value="primera">Primera Clase</option>
+                            </select>
+                        </div>
+                    </div>
+                        <div class="items-formulario">  
+                            <button type="submit" class="btn-search">Buscar Vuelos</button>
+                        </div>
+                </form>
+            </div>
         </section>
     </main>
     <footer>
