@@ -1,0 +1,66 @@
+.fila-formulario{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.titulo-principal{
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    color: white;
+    text-align: center;
+}
+
+.busqueda-vuelos{
+    display: flex;
+    gap: 1.5rem;
+    padding: 40px;
+    border-radius: 15px;
+    margin: 20px auto;
+    justify-content: space-between;
+    max-width: 800px;
+    border: 0.2rem solid white;
+}
+
+.items-formulario{
+    color:white;
+    display: flex;
+    margin: 0.3rem;
+    margin-left: 3rem;
+    justify-content: space-around;
+    gap: 1rem;         
+}
+
+.formulario{
+  padding: 3rem;
+  border: 0.2rem solid white;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  margin-top: 1rem;
+  border-radius: 15px;
+}
+
+.linea-formulario{
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  width: 100%;
+}
+
+.linea-formulario label{
+  width: 5rem;
+  margin-right: 0.625rem;
+  color: white;
+}
+
+.linea-formulario input:not(#mensaje){
+  width: 15.625rem;
+  padding: 0.4rem;
+}
+
+#mensaje{
+  width: 25rem;
+  height: 5rem;
+  padding: 0.4rem;
+}
