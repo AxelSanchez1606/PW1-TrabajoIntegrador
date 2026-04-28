@@ -1,3 +1,8 @@
+button, option, input, select{
+  background-color: rgb(40, 40, 48);
+}
+
+
 .fila-formulario{
     display: flex;
     justify-content: space-between;
