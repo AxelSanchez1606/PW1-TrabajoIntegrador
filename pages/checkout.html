@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Styles/headerYFooter.css">
+    <link rel="stylesheet" href="../Styles/chekcout.css">
+    <title>PasajesAereos - Checkout</title>
+</head>
+<body>
+    <header>
+        <nav class="nav_header">
+            <img class="img_header" src="../Imagenes/fondo-transparente.png" alt="PasajesAereos Logo" width="100">
+            <ul class="ul_header">
+                <li class="li_header"><a href="../index.html">Inicio</a></li>
+                <li class="li_header"><a href="../pages/vuelos.html">Vuelos</a></li>
+                <li class="li_header"><a href="ofertas.html">Ofertas</a></li>
+                <li class="li_header"><a href="../pages/contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>        
+        <h1>Checkout</h1>
+        <section class="contenido">
+            <section>
+                <h2>Datos del pasajero</h2>
+                <section class="datos_pasajero">
+                    <label for="nombre">Nombre Completo</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Ciudad de origen" required>
+
+                    <label for="dni">Documento de identidad</label>
+                    <div>
+                        <select id="tipoDni" name="tipoDni" aria-placeholder="hola">
+                            <option value="1">DNI</option>
+                            <option value="2">CI</option>
+                            <option value="3">CC</option>
+                        </select>
+                    <input type="number" id="dni" name="dni" placeholder="Ingrese su numero de identificacion" required>
+                    </div>
+                    <label for="email">Correo Electronico</label>
+                    <input type="email" id="email" name="email" placeholder="Ingrese su correo electronico" required>
+
+                    <label for="telefono">Telefono</label>
+                    <input type="tel" id="telefono" name="telefono" placeholder="Ingrese su numero de telefono">
+                </section>
+            </section>
+            <section>
+                <h2>Metodo de pago</h2>
+                <section class="metodo_pago_radio">
+                    <label><input type="radio" name="tipo" value="ida-vuelta">Tarjeta de credito</label>
+                    <label><input type="radio" name="tipo" value="solo-ida">Transferencia bancaria</label>
+                </section>
+            </section>
+            <section>
+                <h2>Resumen del vuelo</h2>
+                <section class="resumen_vuelo">
+                    <p>Buenos Aires (BUE) - Madrid (MAD)</p>
+                    <P>10/08/2024 - 20/08/2024</P>
+                    <p>1 escala LIM (ida y vuelta)</p>
+                    <div>
+                        <h3>Total</h3>
+                        <p>$550 USD</p>
+                    </div>
+                    <div>
+                        <input type="text" name="cupon" name="cupon" placeholder="Ingresa tu cupon">
+                        <button>Aplicar</button>
+                    </div>
+                </section>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <ul class="ul_footer">
+            <h3>Integrantes</h3>
+            <li>Axel</li>
+            <li>Ariel</li>
+            <li>Bautista</li>
+            <li>Leandro</li>
+            <li>Rocio</li>
+        </ul>
+    </footer>
+</body>
+</html>
