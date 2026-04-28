@@ -21,14 +21,14 @@ h2{
     background-color: rgb(82, 114, 175);
     padding: 2rem;
     margin: 0;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 .contenido{
     display: flex;
-    height: 17rem;
-    width: 70%;
-    margin-left: 15%;
-    justify-content: space-around;
+    height: 18rem;
+    justify-content: center;
 }
 
 .datos_pasajero, .metodo_pago_radio, .resumen_vuelo{
@@ -38,6 +38,8 @@ h2{
     display: flex;
     flex-direction: column;
     height: 100%;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 #dni{
