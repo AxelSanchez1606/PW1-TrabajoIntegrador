@@ -4,8 +4,81 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PasajesAereos - Detalle Vuelo</title>
+    <link rel="stylesheet" href="../Styles/headerYFooter.css">
+    <link rel="stylesheet" href="../Styles/detalle.css">
 </head>
 <body>
-    DETALLE VUELO
+    <header>
+        <nav class="nav_header">
+            <img class="img_header" src="../Imagenes/fondo-transparente.png" alt="PasajesAereos Logo" width="100">
+            <ul class="ul_header">
+                <li class="li_header"><a href="../index.html">Inicio</a></li>
+                <li class="li_header"><a href="../pages/vuelos.html">Vuelos</a></li>
+                <li class="li_header"><a href="ofertas.html">Ofertas</a></li>
+                <li class="li_header"><a href="../pages/contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <body>
+        <section class="titulo">
+            <h2>Detalle de Vuelo / Selecciona tu Asiento</h2>
+        </section>
+        <section class="contenedores">
+            <article class="Horarios">
+                <section class="vuelo">   
+                    <p>Detalle de vuelo</p>
+                    <div>
+                        <p>IDA: Buenos Aires (BUE) > Madrid (MAD)</p>
+                        <label for="rango">1hs</label>
+                        <input type="range" name="rango" min="1" max="24">
+                        <label for="rango">24hs</label>
+                    </div>
+                    <div class="opciones">
+                        <div>
+                            <input type="radio" name="tipo" id="opcion1">
+                            <label for="#opcion1">O2a Lima, lim</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="tipo" id="opcion2">
+                            <label for="#opcion2">2a 15min</label>
+                        </div>
+                    </div>
+                </section>     
+                <section class="vuelo">
+                    <div>
+                        <p>VUELTA: Madrid (MAD) > Buenos Aires (BUE) </p>
+                        <label for="rango">1hs</label>
+                        <input type="range" name="rango" min="1" max="24">
+                        <label for="rango">24hs</label>
+                    </div>
+                    <div class="opciones">
+                        <div>
+                            <input type="radio" name="tipo2" id="opcion3">
+                            <label for="#opcion3">O2a Lima, lim</label>
+                        </div>
+                </section>
+                <h2 class="monto">
+                    <p>Total</p>
+                    <p>$500</p>
+                </h2>
+            </article>
+
+            <article class="Asientos">
+                aaaa
+            </article>
+        </section>
+    </body>
+
+    <footer>
+        <ul class="ul_footer">
+            <h3>Integrantes</h3>
+            <li>Axel</li>
+            <li>Ariel</li>
+            <li>Bautista</li>
+            <li>Leandro</li>
+            <li>Rocio</li>
+        </ul>
+    </footer>
 </body>
 </html>

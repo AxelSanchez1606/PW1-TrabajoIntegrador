@@ -1,0 +1,40 @@
+body{
+   width: 80%;
+   margin: 0 auto;
+   margin-top: 8rem;
+}
+
+.titulo h2{
+    background-color: cadetblue;
+    padding: 1rem;
+    width: 45%;
+    border: solid 1px;
+    border-radius: 1rem;
+}
+
+.contenedores{
+    display: flex;
+    justify-content: space-between;
+    background-color: cadetblue;
+}
+
+.Horarios{
+    height:35h;
+    width: 35%;
+    
+}
+
+.vuelo{
+    border: solid 2px;
+    border-radius: 1rem;
+    
+}
+.vuelo .opciones{
+    display: flex;
+    flex-direction: column;
+}
+
+.monto{
+    display: flex;
+    justify-content: space-around;
+}
