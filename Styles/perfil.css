@@ -1,0 +1,68 @@
+.contenedor-perfil {
+    display: flex; 
+    max-width: 1200px;
+    margin: 2rem auto;
+    gap: 2rem;
+    min-height: 80vh;
+}
+
+.sidebar-perfil {
+    width: 25%;
+    border-right: 1px solid rgb(132, 163, 221);
+    padding-right: 1rem;
+}
+
+.sidebar-perfil ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar-perfil li {
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+    border-radius: 5px;
+}
+
+.sidebar-perfil li.active {
+    background-color: rgb(132, 163, 221);
+}
+
+.contenido-perfil {
+    width: 75%;
+}
+
+.vuelo-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    overflow: hidden;
+    background-color: white;
+}
+
+.vuelo-header {
+    background-color: #1a1a4e;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.vuelo-detalle {
+    padding: 1.5rem;
+    border-top: 1px solid #eee;
+    background-color:  rgb(132, 163, 221);
+}
+
+.tramo-info {
+    border: 1px solid #eee;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
+.linea-tramo {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}

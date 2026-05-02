@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link rel="stylesheet" href="../Styles/headerYFooter.css">
+    <link rel="stylesheet" href="../Styles/perfil.css">
     <link rel="stylesheet" href="../Styles/index.css">
-    <title>PasajesAereos - Contacto</title>
+    <link rel="stylesheet" href="../Styles/headerYFooter.css">
+     <title>Perfil</title>
 </head>
 <body>
     <header>
@@ -23,36 +24,47 @@
             </ul>
         </nav>
     </header>
-    <main>
-        <section>
-            <div class="titulo-principal">
-                <h2>Contacto</h2>
-                <h3>Envíanos tu mensaje</h3>
-            </div>
-            <form>
-                <div class="formulario formulario-contacto">
-                        <div class="linea-formulario">
-                            <label for="nombre">Nombre: </label>
-                            <input type="text" id="nombre" name="nombre" required>
-                        </div>
-                        <div class="linea-formulario">
-                            <label for="email">Email: </label>
-                            <input type="email" id="email" name="email" required>
-                        </div>
-                        <div class="linea-formulario">
-                            <label for="telefono">Tel: </label>
-                            <input type="tel" id="telefono" name="telefono">
-                        </div>
-                        <div class="linea-formulario">
-                            <label for="mensaje">Mensaje: </label>
-                            <textarea id="mensaje" name="mensaje"></textarea>
-                        </div>
-                        <div class="botones-formulario">
-                            <button type="submit">Enviar</button>
-                            <button type="reset">Cancelar</button>
+    <main class="contenedor-perfil">
+        <aside class="sidebar-perfil">
+            <h3>Perfil</h3>
+            <nav>
+                <ul>
+                    <li><a href="#">Información Personal</a></li>
+                    <li class="active"><a href="#">Mis Vuelos Reservados</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <section class="contenido-perfil">
+            <h2>Perfil</h2>
+            <div class="acordeon-vuelos">
+                <div class="vuelo-card abierta">
+                    <div class="vuelo-header">
+                        <span>Mis Vuelos Reservados</span>
+                        <span class="precio">$ 550 USD <i class="fa-solid fa-chevron-up"></i></span>
+                    </div>
+                    <div class="vuelo-detalle">
+                        <h4>Buenos Aires — Madrid (MAD)</h4>
+                        <p class="fecha-vuelo">10/08/2024 - 20/08/2024</p>
+                        
+                        <div class="tramo-info">
+                            <div class="linea-tramo">
+                                <span>Buenos Aires (BUE) — MAD</span>
+                                <span>$ 550 USD</span>
+                            </div>
+                            <div class="horarios">
+                                <strong>12:00 — 08:40 (+1)</strong>
+                            </div>
                         </div>
                     </div>
-            </form>
+                </div>
+                <div class="vuelo-card">
+                    <div class="vuelo-header">
+                        <span>New York — Paris</span>
+                        <span class="precio">$ 620 USD <i class="fa-solid fa-chevron-down"></i></span>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
     <footer>
