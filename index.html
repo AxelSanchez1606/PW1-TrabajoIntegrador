@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="Styles/headerYFooter.css">
     <link rel="stylesheet" href="Styles/index.css">
     <title>PasajesAereos - Inicio</title>
@@ -28,35 +29,35 @@
             </div>
             <div class="busqueda-vuelos">
                 <form class="main-form" action="./pages/vuelos.html" method="post">
-                    <div class="items-formulario">
+                    <div class="items-formulario" style="flex-direction: row; margin-bottom: 1rem;">
                         <label><input type="radio" name="tipo" value="ida-vuelta"> Ida y vuelta</label>
                         <label><input type="radio" name="tipo" value="solo-ida"> Solo ida</label>
                     </div>
                     <div class="fila-formulario">
                         <div class="items-formulario">
-                            <label for="origen">Origen:  </label>
+                            <label for="origen"><i class="fa-solid fa-plane-departure"></i>  Origen:  </label>
                             <input type="text" id="origen" name="origen" placeholder="Ciudad de origen" required>
                         </div>
                         <div class="items-formulario">
-                            <label for="destino">Destino:  </label>
+                            <label for="destino"><i class="fa-solid fa-plane-arrival"></i>    Destino:  </label>
                             <input type="text" id="destino" name="destino" placeholder="Ciudad de destino" required>
                         </div>
                     </div>
 
                     <div class="fila-formulario">
                             <div class="items-formulario">
-                                <label for="fecha-ida">Ida:  </label>
+                                <label for="fecha-ida"><i class="fa-solid fa-calendar-days"></i>  Ida:  </label>
                                 <input type="date" id="fecha-ida" name="fecha-ida" required>
                             </div>
                             <div class="items-formulario">
-                                <label for="fecha-vuelta">Vuelta:  </label>
+                                <label for="fecha-vuelta"><i class="fa-solid fa-calendar-days"></i>  Vuelta:  </label>
                                 <input type="date" id="fecha-vuelta" name="fecha-vuelta">
                             </div>
                     </div>
 
                     <div class="fila-formulario">
                         <div class="items-formulario">
-                            <label for="pasajeros">Pasajeros:  </label>
+                            <label for="pasajeros"> <i class="fa-solid fa-user"></i> Pasajeros:  </label>
                             <select id="pasajeros" name="pasajeros">
                                 <option value="1">1 Pasajero</option>
                                 <option value="2">2 Pasajeros</option>
@@ -64,7 +65,7 @@
                             </select>
                         </div>
                         <div class="items-formulario">
-                            <label for="clase">Clase:  </label>
+                            <label for="clase"> <i class="fa-solid fa-chair"></i> Clase:  </label>
                             <select id="clase" name="clase">
                                 <option value="economica">Económica</option>
                                 <option value="ejecutiva">Ejecutiva</option>
@@ -79,15 +80,48 @@
             </div>
         </section>
     </main>
-    <footer>
-        <ul class="ul_footer">
-            <h3>Integrantes</h3>
-            <li>Axel</li>
-            <li>Ariel</li>
-            <li>Bautista</li>
-            <li>Leandro</li>
-            <li>Rocio</li>
-        </ul>
-    </footer>
+<footer>
+    <ul class="ul_footer">
+        <img class="img-footer" src="Imagenes/loguitoPW1.png" alt="Logo PW1">
+        <h3>Integrantes</h3>
+        <div class="contenedor-items-footer">
+            <li>
+                <span>Axel</span>
+                <div class="iconos-redes">
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </li>
+            <li>
+                <span>Ariel</span>
+                <div class="iconos-redes">
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </li>
+            <li>
+                <span>Bautista</span>
+                <div class="iconos-redes">
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </li>
+            <li>
+                <span>Leandro</span>
+                <div class="iconos-redes">
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </li>
+            <li>
+                <span>Rocio</span>
+                <div class="iconos-redes">
+                    <a href="https://github.com/Roci-B" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/rociobossio/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </li>
+        </div>
+    </ul>
+</footer>
 </body>
 </html>

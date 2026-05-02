@@ -6,44 +6,66 @@ button, option, input, select{
 .fila-formulario{
     display: flex;
     justify-content: space-between;
-    gap: 20px;
-    margin-bottom: 20px;
+    gap: 1.25rem;
+    margin-bottom: 1.25rem;
 }
 
 .titulo-principal{
     font-size: 1.5rem;
-    padding-top: 1rem;
     color: white;
     text-align: center;
 }
 
 .busqueda-vuelos{
-    display: flex;
-    gap: 1.5rem;
-    padding: 40px;
-    border-radius: 15px;
-    margin: 20px auto;
-    justify-content: space-between;
-    max-width: 800px;
-    border: 0.2rem solid white;
+    padding: 2.5rem;
+    margin: 1.25rem auto;
+    background-color:  rgb(132, 163, 221);
+    border: solid;
+    border-color: black;
+    width: 50rem;
+    flex-direction: column; 
+}
+
+.main-form{
+    flex-direction: column;
+    align-items: center;
 }
 
 .items-formulario{
     color:white;
     display: flex;
-    margin: 0.3rem;
     margin-left: 3rem;
-    justify-content: space-around;
-    gap: 1rem;         
+    justify-content: flex-start;   
+    flex-direction: column;
+    margin: 0.3rem;
+    gap: 0.5rem;
+    width: 100%; 
+}
+
+.items-formulario button{
+    background-color: rgb(40, 40, 48);
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 0.3125 rem;    
+    font-size: large;
+    width: 100%; 
+    height: 2rem; 
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
 }
 
 .formulario{
-  padding: 3rem;
-  border: 0.2rem solid white;
-  margin-left: 3rem;
-  margin-right: 3rem;
-  margin-top: 1rem;
-  border-radius: 15px;
+  padding: 2.5rem;
+  margin: 1.25rem auto;
+  background-color:  rgb(132, 163, 221);
+  border: solid;
+  border-color: black;
+  width: 50rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .linea-formulario{
@@ -51,21 +73,128 @@ button, option, input, select{
   align-items: center;
   margin-bottom: 1.5rem;
   width: 100%;
+  margin-left: 100px;
 }
 
 .linea-formulario label{
   width: 5rem;
   margin-right: 0.625rem;
   color: white;
-}
-
-.linea-formulario input:not(#mensaje){
-  width: 15.625rem;
-  padding: 0.4rem;
+  font-size: large;
 }
 
 #mensaje{
   width: 25rem;
   height: 5rem;
   padding: 0.4rem;
+}
+
+.items-formulario label{
+  font-size: larger;
+}
+
+input[type="text"], 
+input[type="date"], 
+select {
+    height: 2rem;
+    padding: 0 1rem;
+    border-radius: 0.5rem;
+    border: 0.0625rem solid rgba(255, 255, 255, 0.3);
+    width: 100%; 
+    box-sizing: border-box; 
+}
+
+
+.ul_footer {
+    list-style: none;
+    text-align: center;
+    color: white;
+    padding: 1.25rem;
+    background-color: rgb(40, 40, 48); 
+    }
+
+
+.contenedor-items-footer {
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem; 
+    margin-top: 0.9375rem;
+    flex-wrap: wrap;
+}
+
+.ul_footer li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.625rem; 
+}
+
+.iconos-redes {
+    display: flex;
+    gap: 0.625rem;
+}
+
+.iconos-redes i {
+    color: rgb(132, 163, 221); 
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.iconos-redes i:hover {
+    color: white; 
+}
+
+.img-footer {
+    width: 12.5rem;
+    height: auto;
+    margin-top: 0.625rem;
+}
+
+.formulario-contacto input[type="text"], 
+.formulario-contacto input[type="email"], 
+.formulario-contacto input[type="tel"], 
+.formulario-contacto textarea {
+    width: 25rem;
+    background-color: rgb(40, 40, 48); 
+    color: white;
+    border-radius: 10px;
+    padding: 0.8rem;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-sizing: border-box; 
+}
+
+textarea {
+    height: 8rem; 
+    resize: none;
+}
+
+.formulario-contacto input[type="text"], 
+.formulario-contacto input[type="email"], 
+.formulario-contacto input[type="tel"] {
+    height: 1rem;             /* Altura normal de un renglón */
+}
+
+.botones-formulario {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    width: 100%; 
+}
+
+.botones-formulario button {
+    cursor: pointer;
+    padding: 10px 30px;
+    font-weight: bold;
+    width: 10rem; /* <-- Esto hace que ambos midan lo mismo */
+    background-color: rgb(40, 40, 48);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
+    transition: background 0.3s;
+}
+
+.botones-formulario button:hover {
+    background-color: rgb(132, 163, 221); /* El color azulado de tu diseño */
+    color: black;
 }

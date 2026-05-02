@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="../Styles/headerYFooter.css">
     <link rel="stylesheet" href="../Styles/index.css">
     <title>PasajesAereos - Contacto</title>
@@ -21,9 +22,12 @@
     </header>
     <main>
         <section>
-            <h2 class="titulo-principal">Contactanos</h2>
+            <div class="titulo-principal">
+                <h2>Contacto</h2>
+                <h3>Envíanos tu mensaje</h3>
+            </div>
             <form>
-                <div class="formulario">
+                <div class="formulario formulario-contacto">
                         <div class="linea-formulario">
                             <label for="nombre">Nombre: </label>
                             <input type="text" id="nombre" name="nombre" required>
@@ -38,7 +42,7 @@
                         </div>
                         <div class="linea-formulario">
                             <label for="mensaje">Mensaje: </label>
-                            <input type="text" id="mensaje" name="mensaje">
+                            <textarea id="mensaje" name="mensaje"></textarea>
                         </div>
                         <div class="botones-formulario">
                             <button type="submit">Enviar</button>
@@ -50,12 +54,45 @@
     </main>
     <footer>
         <ul class="ul_footer">
+            <img class="img-footer" src="../Imagenes/loguitoPW1.png" alt="Logo PW1">
             <h3>Integrantes</h3>
-            <li>Axel</li>
-            <li>Ariel</li>
-            <li>Bautista</li>
-            <li>Leandro</li>
-            <li>Rocio</li>
+            <div class="contenedor-items-footer">
+                <li>
+                    <span>Axel</span>
+                    <div class="iconos-redes">
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </li>
+                <li>
+                    <span>Ariel</span>
+                    <div class="iconos-redes">
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </li>
+                <li>
+                    <span>Bautista</span>
+                    <div class="iconos-redes">
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </li>
+                <li>
+                    <span>Leandro</span>
+                    <div class="iconos-redes">
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </li>
+                <li>
+                    <span>Rocio</span>
+                    <div class="iconos-redes">
+                        <a href="https://github.com/Roci-B" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/rociobossio/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </li>
+            </div>
         </ul>
     </footer>
 </body>
