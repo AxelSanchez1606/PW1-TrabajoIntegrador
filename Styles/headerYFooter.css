@@ -8,6 +8,7 @@ body{
     margin-top: 7.8rem;
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(22, 22, 63);
+    padding-bottom: 6rem;
 }
 
 header{
@@ -65,7 +66,7 @@ footer{
     list-style: none;
     margin: 0;
     color: white;
-    height: 7rem;
+    height: 5rem;
     justify-content: center;
 }
 
