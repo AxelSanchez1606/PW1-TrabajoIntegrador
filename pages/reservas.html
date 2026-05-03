@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../Styles/headerYFooter.css">
+    <link rel="stylesheet" href="../Styles/reservas.css">
     <title>PasajesAereos - Mis reservas</title>
 </head>
 <body>
@@ -19,7 +20,72 @@
         </nav>
     </header>
     <main>
-        <h1>MIS RESERVAS</h1>  
+        <main class="reservas-container">
+
+    <h1>Mis Reservas</h1>
+
+    <section class="mis-reservas">
+
+        <input type="radio" name="accordion" id="vuelo1" checked>
+
+        <label for="vuelo1" class="item">
+            <div>
+                <strong>Buenos Aires → Madrid</strong>
+                <p>10/08/2024 - 20/08/2024</p>
+            </div>
+            <div class="derecha">
+                <span>$550 USD</span>
+                <span class="flecha">⌄</span>
+            </div>
+        </label>
+
+        <div class="contenido">
+            <p><strong>Ida:</strong> 12:00 → 08:40 (+1)</p>
+            <p><strong>Vuelta:</strong> 18:30 → 06:40 (+1)</p>
+            <p><strong>Escala:</strong> LIM</p>
+        </div>
+
+        <input type="radio" name="accordion" id="vuelo2">
+
+        <label for="vuelo2" class="item">
+            <div>
+                <strong>New York → Paris</strong>
+                <p>05/09/2024 - 15/09/2024</p>
+            </div>
+            <div class="derecha">
+                <span>$620 USD</span>
+                <span class="flecha">⌄</span>
+            </div>
+        </label>
+
+        <div class="contenido">
+            <p><strong>Ida:</strong> 15:00 → 08:40 (+1)</p>
+            <p><strong>Vuelta:</strong> 20:30 → 06:40 (+1)</p>
+            <p><strong>Escala:</strong> Londres</p>
+        </div>
+
+        <input type="radio" name="accordion" id="vuelo3">
+
+        <label for="vuelo3" class="item">
+            <div>
+                <strong>Barcelona → Roma</strong>
+                <p>01/10/2024</p>
+            </div>
+            <div class="derecha">
+                <span>$280 USD</span>
+                <span class="flecha">⌄</span>
+            </div>
+        </label>
+
+        <div class="contenido">
+            <p><strong>Ida:</strong> 12:00 → 08:40 (+1)</p>
+            <p><strong>Vuelta:</strong> 18:30 → 06:40 (+1)</p>
+            <p><strong>Escala:</strong> Madrid </p>
+        </div>
+
+    </section>
+
+</main>  
     </main>
     <footer>
         <ul class="ul_footer">
