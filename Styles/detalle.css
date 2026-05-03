@@ -1,0 +1,156 @@
+body{
+   width: 80%;
+   margin: 0 auto;
+   margin-top: 8rem;
+}
+
+.titulo h2{
+    background-color: cadetblue;
+    padding: 1rem;
+    width: 45%;
+    border: solid 1px;
+    border-radius: 1rem;
+}
+
+.contenedores{
+    display: flex;
+    justify-content: space-between;
+    background-color: cadetblue;
+}
+
+.Horarios{
+    height:35h;
+    width: 35%;
+    
+}
+
+.vuelo{
+    border: solid 2px;
+    border-radius: 1rem;
+    
+}
+.vuelo .opciones{
+    display: flex;
+    flex-direction: column;
+}
+
+.monto{
+    display: flex;
+    justify-content: space-around;
+}
+
+.seleccion-asiento {
+  flex: 1;
+  padding: 1.2rem 1.4rem;
+  color: #1a1a4e;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.seleccion-asiento .subtitulo {
+  color: #1a1a4e;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.leyenda {
+  display: flex;
+  gap: 1.2rem;
+  flex-wrap: wrap;
+}
+
+.leyenda-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.8rem;
+  color: #1a1a4e;
+}
+
+.asiento {
+  width: 34px;
+  height: 34px;
+  border-radius: 6px 6px 3px 3px;
+  border: 1px solid transparent;
+}
+
+.asiento.disponible {
+  background-color: #f0f0f0;
+  border-color: white;
+  cursor: pointer;
+}
+
+.asiento.disponible:hover {
+  background-color: #cecbf6;
+  border-color: #7f77dd;
+}
+
+.asiento.seleccionado {
+  background-color: #7f77dd;
+  border-color: #534ab7;
+  cursor: pointer;
+}
+
+.asiento.ocupado {
+  background-color: #c8c8c8;
+  border-color: #999;
+  cursor: not-allowed;
+}
+
+.mapa {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.fila {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.fila.encabezado {
+  margin-bottom: 2px;
+}
+
+.num-fila {
+  width: 20px;
+  text-align: right;
+  font-size: 0.72rem;
+  color: #444;
+  flex-shrink: 0;
+}
+
+.letra {
+  width: 34px;
+  text-align: center;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.pasillo {
+  width: 18px;
+}
+
+#info-seleccion {
+  font-size: 0.82rem;
+  color: #333;
+  min-height: 1.1rem;
+}
+
+#btn-continuar {
+  align-self: flex-start;
+  padding: 9px 24px;
+  background-color: #7f77dd;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+#btn-continuar:hover {
+  background-color: #534ab7;
+}

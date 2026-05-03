@@ -1,25 +1,85 @@
-*{
-    color: black;
-}
-
 body{
+    margin: 0;
     padding-bottom: 0;
 }
 
-h1{
-    text-align: center;
-    margin-bottom: 3rem;
+main{
+    margin-top: 10rem;
 }
 
-p{
-    margin-right: 2rem;
+footer{
+    position: relative;
+}
+
+.botones-formulario{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-left: 5.625rem;
+  margin-right: 41rem;
+}
+
+.botones-formulario button{
+  width: 100%;
+  padding: 0.625rem;
+  cursor: pointer;
+}
+
+.main-form{
+    padding-left: 80px;
+    flex-direction: column;
+}
+
+.boton_reservar{
+    margin-top: 1.5rem;
+    margin-right: 1.5rem;
+    height: 4rem;
+    width: 7rem;
+    background-color: rgb(40, 40, 48);
+}
+
+.filtro_equipaje{
+    width: 13rem; 
+    background-color: rgb(132, 163, 221);
+    height: 100%;
+    margin-left: 1rem;
+}
+
+.filtrado_equipaje{
+    padding: 1rem;
+    border: solid;
+    border-color: black;
+    border-top: none;
+}
+
+.filtrado_politica{
+    padding: 1rem;
+    border: solid;
+    border-color: black;
+    border-top: none;
+}
+
+.subtitulo_equipaje{
+    background-color: rgb(82, 114, 175);
+    margin: 0;
+    padding: 1rem;
+    border: solid;
+    border-color: black;
+    border-bottom: none;
+}
+
+.equipaje_h2{
+    margin: 0;
+}
+
+.politica_p{
+    margin: 0;
 }
 
 .resultados{
     display: flex;
-    padding: 10rem;
-    padding-top: 0;
-    padding-bottom: 0rem;
+    justify-content: center;
 }
 
 .filtro{
@@ -27,8 +87,6 @@ p{
     flex-direction: column;
     align-items: start;
     height: 100%;
-    width: 13rem;
-    padding-left: 9rem;
     margin-right: 1rem;
 }
 
@@ -118,47 +176,7 @@ p{
     justify-content: center;
 }
 
-.boton_reservar{
-    margin-top: 1.5rem;
-    margin-right: 1.5rem;
-    height: 4rem;
-    width: 7rem;
-}
-
-.filtro_equipaje{
-    width: 13rem; 
-    background-color: rgb(132, 163, 221);
-    height: 100%;
-    margin-left: 1rem;
-}
-
-.filtrado_equipaje{
-    padding: 1rem;
-    border: solid;
-    border-color: black;
-    border-top: none;
-}
-
-.filtrado_politica{
-    padding: 1rem;
-    border: solid;
-    border-color: black;
-    border-top: none;
-}
-
-.subtitulo_equipaje{
-    background-color: rgb(82, 114, 175);
-    margin: 0;
-    padding: 1rem;
-    border: solid;
-    border-color: black;
-    border-bottom: none;
-}
-
-.equipaje_h2{
-    margin: 0;
-}
-
-.politica_p{
-    margin: 0;
+h1{
+    text-align: center;
+    margin-bottom: 3rem;
 }
