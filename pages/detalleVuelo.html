@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="../Styles/headerYFooter.css">
     <link rel="stylesheet" href="../Styles/detalle.css">
 </head>
+
 <body>
     <header>
         <nav class="nav_header">
@@ -26,7 +28,7 @@
         </section>
         <section class="contenedores">
             <article class="Horarios">
-                <section class="vuelo">   
+                <section class="vuelo">
                     <p>Detalle de vuelo</p>
                     <div>
                         <p>IDA: Buenos Aires (BUE) > Madrid (MAD)</p>
@@ -44,7 +46,7 @@
                             <label for="#opcion2">2a 15min</label>
                         </div>
                     </div>
-                </section>     
+                </section>
                 <section class="vuelo">
                     <div>
                         <p>VUELTA: Madrid (MAD) > Buenos Aires (BUE) </p>
@@ -67,94 +69,100 @@
             <article class="seleccion-asiento">
                 <h3>Selecciona tu asiento</h3>
 
-                  <div class="leyenda">
-      <div class="leyenda-item"><div class="asiento disponible"></div><span>Disponible</span></div>
-      <div class="leyenda-item"><div class="asiento seleccionado"></div><span>Seleccionado</span></div>
-      <div class="leyenda-item"><div class="asiento ocupado"></div><span>Ocupado</span></div>
-    </div>
+                <div class="leyenda">
+                    <div class="leyenda-item">
+                        <div class="asiento disponible"></div><span>Disponible</span>
+                    </div>
+                    <div class="leyenda-item">
+                        <div class="asiento seleccionado"></div><span>Seleccionado</span>
+                    </div>
+                    <div class="leyenda-item">
+                        <div class="asiento ocupado"></div><span>Ocupado</span>
+                    </div>
+                </div>
 
-    <div class="mapa">
-      <div class="fila encabezado">
-        <div class="num-fila"></div>
-        <div class="letra">A</div>
-        <div class="letra">B</div>
-        <div class="letra">C</div>
-        <div class="pasillo"></div>
-        <div class="letra">D</div>
-        <div class="letra">E</div>
-        <div class="letra">F</div>
-      </div>
+                <div class="mapa">
+                    <div class="fila encabezado">
+                        <div class="num-fila"></div>
+                        <div class="letra">A</div>
+                        <div class="letra">B</div>
+                        <div class="letra">C</div>
+                        <div class="pasillo"></div>
+                        <div class="letra">D</div>
+                        <div class="letra">E</div>
+                        <div class="letra">F</div>
+                    </div>
 
-      <div class="fila">
-        <div class="num-fila">1</div>
-        <div class="asiento disponible" data-id="1A"></div>
-        <div class="asiento ocupado"></div>
-        <div class="asiento disponible" data-id="1C"></div>
-        <div class="pasillo"></div>
-        <div class="asiento disponible" data-id="1D"></div>
-        <div class="asiento disponible" data-id="1E"></div>
-        <div class="asiento ocupado"></div>
-      </div>
+                    <div class="fila">
+                        <div class="num-fila">1</div>
+                        <div class="asiento disponible" data-id="1A"></div>
+                        <div class="asiento ocupado"></div>
+                        <div class="asiento disponible" data-id="1C"></div>
+                        <div class="pasillo"></div>
+                        <div class="asiento disponible" data-id="1D"></div>
+                        <div class="asiento disponible" data-id="1E"></div>
+                        <div class="asiento ocupado"></div>
+                    </div>
 
-      <div class="fila">
-        <div class="num-fila">2</div>
-        <div class="asiento disponible" data-id="2A"></div>
-        <div class="asiento disponible" data-id="2B"></div>
-        <div class="asiento ocupado"></div>
-        <div class="pasillo"></div>
-        <div class="asiento disponible" data-id="2D"></div>
-        <div class="asiento ocupado"></div>
-        <div class="asiento disponible" data-id="2F"></div>
-      </div>
+                    <div class="fila">
+                        <div class="num-fila">2</div>
+                        <div class="asiento disponible" data-id="2A"></div>
+                        <div class="asiento disponible" data-id="2B"></div>
+                        <div class="asiento ocupado"></div>
+                        <div class="pasillo"></div>
+                        <div class="asiento disponible" data-id="2D"></div>
+                        <div class="asiento ocupado"></div>
+                        <div class="asiento disponible" data-id="2F"></div>
+                    </div>
 
-      <div class="fila">
-        <div class="num-fila">3</div>
-        <div class="asiento ocupado"></div>
-        <div class="asiento disponible" data-id="3B"></div>
-        <div class="asiento disponible" data-id="3C"></div>
-        <div class="pasillo"></div>
-        <div class="asiento ocupado"></div>
-        <div class="asiento disponible" data-id="3E"></div>
-        <div class="asiento disponible" data-id="3F"></div>
-      </div>
+                    <div class="fila">
+                        <div class="num-fila">3</div>
+                        <div class="asiento ocupado"></div>
+                        <div class="asiento disponible" data-id="3B"></div>
+                        <div class="asiento disponible" data-id="3C"></div>
+                        <div class="pasillo"></div>
+                        <div class="asiento ocupado"></div>
+                        <div class="asiento disponible" data-id="3E"></div>
+                        <div class="asiento disponible" data-id="3F"></div>
+                    </div>
 
-      <div class="fila">
-        <div class="num-fila">4</div>
-        <div class="asiento disponible" data-id="4A"></div>
-        <div class="asiento disponible" data-id="4B"></div>
-        <div class="asiento disponible" data-id="4C"></div>
-        <div class="pasillo"></div>
-        <div class="asiento disponible" data-id="4D"></div>
-        <div class="asiento ocupado"></div>
-        <div class="asiento ocupado"></div>
-      </div>
+                    <div class="fila">
+                        <div class="num-fila">4</div>
+                        <div class="asiento disponible" data-id="4A"></div>
+                        <div class="asiento disponible" data-id="4B"></div>
+                        <div class="asiento disponible" data-id="4C"></div>
+                        <div class="pasillo"></div>
+                        <div class="asiento disponible" data-id="4D"></div>
+                        <div class="asiento ocupado"></div>
+                        <div class="asiento ocupado"></div>
+                    </div>
 
-      <div class="fila">
-        <div class="num-fila">5</div>
-        <div class="asiento disponible" data-id="5A"></div>
-        <div class="asiento ocupado"></div>
-        <div class="asiento ocupado"></div>
-        <div class="pasillo"></div>
-        <div class="asiento disponible" data-id="5D"></div>
-        <div class="asiento disponible" data-id="5E"></div>
-        <div class="asiento disponible" data-id="5F"></div>
-      </div>
+                    <div class="fila">
+                        <div class="num-fila">5</div>
+                        <div class="asiento disponible" data-id="5A"></div>
+                        <div class="asiento ocupado"></div>
+                        <div class="asiento ocupado"></div>
+                        <div class="pasillo"></div>
+                        <div class="asiento disponible" data-id="5D"></div>
+                        <div class="asiento disponible" data-id="5E"></div>
+                        <div class="asiento disponible" data-id="5F"></div>
+                    </div>
 
-      <div class="fila">
-        <div class="num-fila">6</div>
-        <div class="asiento ocupado"></div>
-        <div class="asiento disponible" data-id="6B"></div>
-        <div class="asiento disponible" data-id="6C"></div>
-        <div class="pasillo"></div>
-        <div class="asiento disponible" data-id="6D"></div>
-        <div class="asiento disponible" data-id="6E"></div>
-        <div class="asiento ocupado"></div>
-      </div>
-    </div>
+                    <div class="fila">
+                        <div class="num-fila">6</div>
+                        <div class="asiento ocupado"></div>
+                        <div class="asiento disponible" data-id="6B"></div>
+                        <div class="asiento disponible" data-id="6C"></div>
+                        <div class="pasillo"></div>
+                        <div class="asiento disponible" data-id="6D"></div>
+                        <div class="asiento disponible" data-id="6E"></div>
+                        <div class="asiento ocupado"></div>
+                    </div>
+                </div>
 
-    <p id="info-seleccion">Hacé clic en un asiento disponible para seleccionarlo.</p>
-    <button id="btn-continuar" onclick="window.location.href='checkout.html'">Continuar</button>
-  </div>
+                <p id="info-seleccion">Hacé clic en un asiento disponible para seleccionarlo.</p>
+                <button id="btn-continuar" onclick="window.location.href='checkout.html'">Continuar</button>
+                </div>
             </article>
         </section>
     </body>
@@ -170,4 +178,5 @@
         </ul>
     </footer>
 </body>
+
 </html>
