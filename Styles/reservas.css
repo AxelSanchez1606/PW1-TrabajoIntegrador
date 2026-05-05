@@ -1,8 +1,10 @@
 .reservas-container {
     background-color: #14163a;
-    min-height: 100vh;
-    padding-top: 8rem;
+    padding-top: 4rem;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .reservas-container h1 {
